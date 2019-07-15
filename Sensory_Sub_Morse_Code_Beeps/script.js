@@ -1,7 +1,9 @@
+var soundID = "single"
+
 function loadSound () {
-    createjs.Sound.registerSound("assets/thunder.mp3", soundID);
+    createjs.Sound.registerSound("morseCode/short.ogg", soundID);
 }
 
 function playSound () {
     createjs.Sound.play(soundID);
-  }
+}

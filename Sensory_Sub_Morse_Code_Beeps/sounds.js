@@ -2,37 +2,37 @@
 
 window.onload = ()=>{
     // loadSounds();
-    document.getElementById('loadSounds').addEventListener('click', loadSounds);
+    // document.getElementById('loadSounds').addEventListener('click', loadSounds);
 }
 
 
 function loadSounds () {
-    createjs.Sound.registerSound("morseCode/A_morse_code", "a");
-    createjs.Sound.registerSound("morseCode/B_morse_code", "b");
-    createjs.Sound.registerSound("morseCode/C_morse_code", "c");
-    createjs.Sound.registerSound("morseCode/D_morse_code", "d");
-    createjs.Sound.registerSound("morseCode/E_morse_code", "e");
-    createjs.Sound.registerSound("morseCode/F_morse_code", "f");
-    createjs.Sound.registerSound("morseCode/G_morse_code", "g");
-    createjs.Sound.registerSound("morseCode/H_morse_code", "h");
-    createjs.Sound.registerSound("morseCode/I_morse_code", "i");
-    createjs.Sound.registerSound("morseCode/J_morse_code", "j");
-    createjs.Sound.registerSound("morseCode/K_morse_code", "k");
-    createjs.Sound.registerSound("morseCode/L_morse_code", "l");
-    createjs.Sound.registerSound("morseCode/M_morse_code", "m");
-    createjs.Sound.registerSound("morseCode/N_morse_code", "n");
-    createjs.Sound.registerSound("morseCode/O_morse_code", "o");
-    createjs.Sound.registerSound("morseCode/P_morse_code", "p");
-    createjs.Sound.registerSound("morseCode/Q_morse_code", "q");
-    createjs.Sound.registerSound("morseCode/R_morse_code", "r");
-    createjs.Sound.registerSound("morseCode/S_morse_code", "s");
-    createjs.Sound.registerSound("morseCode/T_morse_code", "t");
-    createjs.Sound.registerSound("morseCode/U_morse_code", "u");
-    createjs.Sound.registerSound("morseCode/V_morse_code", "v");
-    createjs.Sound.registerSound("morseCode/W_morse_code", "w");
-    createjs.Sound.registerSound("morseCode/X_morse_code", "x");
-    createjs.Sound.registerSound("morseCode/Y_morse_code", "y");
-    createjs.Sound.registerSound("morseCode/Z_morse_code", "z");
+    createjs.Sound.registerSound("beepFiles/A_morse_code.ogg", "a");
+    createjs.Sound.registerSound("beepFiles/B_morse_code.ogg", "b");
+    createjs.Sound.registerSound("beepFiles/C_morse_code.ogg", "c");
+    createjs.Sound.registerSound("beepFiles/D_morse_code.ogg", "d");
+    createjs.Sound.registerSound("beepFiles/E_morse_code.ogg", "e");
+    createjs.Sound.registerSound("beepFiles/F_morse_code.ogg", "f");
+    createjs.Sound.registerSound("beepFiles/G_morse_code.ogg", "g");
+    createjs.Sound.registerSound("beepFiles/H_morse_code.ogg", "h");
+    createjs.Sound.registerSound("beepFiles/I_morse_code.ogg", "i");
+    createjs.Sound.registerSound("beepFiles/J_morse_code.ogg", "j");
+    createjs.Sound.registerSound("beepFiles/K_morse_code.ogg", "k");
+    createjs.Sound.registerSound("beepFiles/L_morse_code.ogg", "l");
+    createjs.Sound.registerSound("beepFiles/M_morse_code.ogg", "m");
+    createjs.Sound.registerSound("beepFiles/N_morse_code.ogg", "n");
+    createjs.Sound.registerSound("beepFiles/O_morse_code.ogg", "o");
+    createjs.Sound.registerSound("beepFiles/P_morse_code.ogg", "p");
+    createjs.Sound.registerSound("beepFiles/Q_morse_code.ogg", "q");
+    createjs.Sound.registerSound("beepFiles/R_morse_code.ogg", "r");
+    createjs.Sound.registerSound("beepFiles/S_morse_code.ogg", "s");
+    createjs.Sound.registerSound("beepFiles/T_morse_code.ogg", "t");
+    createjs.Sound.registerSound("beepFiles/U_morse_code.ogg", "u");
+    createjs.Sound.registerSound("beepFiles/V_morse_code.ogg", "v");
+    createjs.Sound.registerSound("beepFiles/W_morse_code.ogg", "w");
+    createjs.Sound.registerSound("beepFiles/X_morse_code.ogg", "x");
+    createjs.Sound.registerSound("beepFiles/Y_morse_code.ogg", "y");
+    createjs.Sound.registerSound("beepFiles/Z_morse_code.ogg", "z");
     
 
 }
@@ -46,97 +46,97 @@ function playB() {
 }
 
 function playC() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("c");
 }
 
 function playD() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("d");
 }
 
 function playE() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("e");
 }
 
 function playF() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("f");
 }
 
 function playG() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("g");
 }
 
 function playH() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("h");
 }
 
 function playI() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("i");
 }
 
 function playJ() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("j");
 }
 
 function playK() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("k");
 }
 
 function playL() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("l");
 }
 
 function playM() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("m");
 }
 
 function playN() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("n");
 }
 
 function playO() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("o");
 }
 
 function playP() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("p");
 }
 
 function playQ() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("q");
 }
 
 function playR() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("r");
 }
 
 function playS() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("s");
 }
 
 function playT() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("t");
 }
 
 function playU() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("u");
 }
 
 function playV() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("v");
 }
 
 function playW() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("w");
 }
 
 function playX() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("x");
 }
 
 function playY() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("y");
 }
 
 function playZ() {
-    createjs.Sound.play("b");
+    createjs.Sound.play("Z");
 }

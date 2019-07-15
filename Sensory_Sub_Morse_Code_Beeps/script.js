@@ -1,9 +1,15 @@
-var soundID = "single"
+// file to play sounds
 
-function loadSound () {
-    createjs.Sound.registerSound("morseCode/short.ogg", soundID);
+function loadSounds () {
+    createjs.Sound.registerSound("morseCode/short.ogg", "short");
+    createjs.Sound.registerSound("morseCode/long.ogg", "long");
+
 }
 
-function playSound () {
-    createjs.Sound.play(soundID);
+function playShort () {
+    createjs.Sound.play("short");
+}
+
+function playLong() {
+    createjs.Sound.play("long");
 }
